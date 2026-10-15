@@ -1,4 +1,4 @@
-﻿using NUnit.Framework; // Ou Microsoft.VisualStudio.TestTools.UnitTesting / xUnit
+﻿using NUnit.Framework; 
 using System;
 using System.IO;
 using System.Text;

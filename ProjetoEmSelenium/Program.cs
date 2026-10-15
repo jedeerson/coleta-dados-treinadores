@@ -29,7 +29,6 @@ namespace ColetaDeTreinadores
             {
                 HashSet<string> cnpjsExistentes = CarregarCnpjsExistentes(caminhoCsv);
 
-                // Passando o caminhoUrl para a TelaPesquisaPage
                 TelaPesquisaPage telaPesquisa = new TelaPesquisaPage(driver, caminhoUrl);
                 ColetaDeDadosPage coletaDados = new ColetaDeDadosPage(driver);
 
@@ -51,7 +50,6 @@ namespace ColetaDeTreinadores
 
                     Console.WriteLine($"Total de cards encontrados na página: {urlsDasEmpresas.Count}");
 
-                    // Passando o caminhoCsv para o método AcessarPerfilDeTreinadores
                     bool atingiuMeta = coletaDados.AcessarPerfilDeTreinadores(urlsDasEmpresas, cnpjsExistentes, caminhoCsv);
 
                     if (atingiuMeta)
