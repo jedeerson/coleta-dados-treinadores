@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PrimeiroProjetoEmSelenium/ColetaDeTreinadores.csproj" />
+  <Project Path="PrimeiroProjetoEmSelenium/Tests/TelaPesquisaTests/Tests.csproj" Id="e90aed55-98bf-4200-ab90-2b9f58af09ac" />
+</Solution>
