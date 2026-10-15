@@ -27,7 +27,7 @@ namespace ColetaDeTreinadores.Pages
                 var elemento = driver.FindElement(By.XPath(xpath));
                 return elemento.Text;
             }
-            catch
+            catch (OpenQA.Selenium.NoSuchElementException)
             {
                 return "NÃO ENCONTRADO";
             }
